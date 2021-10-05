@@ -1,6 +1,5 @@
-// Convert Latitude Longitude to NZTM2000
+// Convert NZGD2000 Latitude Longitude to NZTM2000
 // Formulae from "https://www.linz.govt.nz/data/geodetic-services/coordinate-conversion/projection-conversions/transverse-mercator-transformation-formulae"
-// Warning!!! This does not take into account the variation over time due to continental drift, I haven't received an answer from LINZ regarding this yet
 // Written to run as a function in Google Sheets, but could be used elsewhere
 
 // Pass in Lat, Long in the format -41.000000, 174.000000
